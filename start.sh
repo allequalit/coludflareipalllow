@@ -66,15 +66,15 @@ ip6tables -A INPUT -p tcp --dport 443 -s 2a06:98c0::/29 -j ACCEPT
 ip6tables -A INPUT -p tcp --dport 443 -s 2c0f:f248::/32 -j ACCEPT 
 
 wget https://cl.ael.kr/rules.v4
-cat rules.v4 > /etc/iptables/rules.v4
+cat rules.v4 >> /etc/iptables/rules.v4
 
 wget https://cl.ael.kr/rules.v6
-cat rules.v6 > /etc/iptables/rules.v6
+cat rules.v6 >> /etc/iptables/rules.v6
 
 # IP 스푸핑 방지를 활성화 하고 소스 주소 확인을 켭니다.
 
 sysctl  -w net.ipv4.conf.all.rp_filter=1
 
 wget https://cl.ael.kr/sysctl.conf
-cat sysctl.conf > /etc/sysctl.conf
+cat sysctl.conf >> /etc/sysctl.conf
  
