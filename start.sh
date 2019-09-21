@@ -30,6 +30,7 @@ iptables -t mangle -A PREROUTING -p tcp --dport 80 -s 104.16.0.0/12 -j ACCEPT
 iptables -t mangle -A PREROUTING -p tcp --dport 80 -s 172.64.0.0/13 -j ACCEPT 
 iptables -t mangle -A PREROUTING -p tcp --dport 80 -s 131.0.72.0/22 -j ACCEPT 
 
+ip6tables -t mangle -A PREROUTING -p tcp --dport 443 -j DROP
 ip6tables -t mangle -A PREROUTING -p tcp --dport 80 -s 2400:cb00::/32 -j ACCEPT 
 ip6tables -t mangle -A PREROUTING -p tcp --dport 80 -s 2606:4700::/32 -j ACCEPT 
 ip6tables -t mangle -A PREROUTING -p tcp --dport 80 -s 2803:f800::/32 -j ACCEPT 
@@ -56,6 +57,7 @@ iptables -t mangle -A PREROUTING -p tcp --dport 443 -s 104.16.0.0/12 -j ACCEPT
 iptables -t mangle -A PREROUTING -p tcp --dport 443 -s 172.64.0.0/13 -j ACCEPT 
 iptables -t mangle -A PREROUTING -p tcp --dport 443 -s 131.0.72.0/22 -j ACCEPT 
 
+ip6tables -t mangle -A PREROUTING -p tcp --dport 443 -j DROP
 ip6tables -t mangle -A PREROUTING -p tcp --dport 443 -s 2400:cb00::/32 -j ACCEPT 
 ip6tables -t mangle -A PREROUTING -p tcp --dport 443 -s 2606:4700::/32 -j ACCEPT 
 ip6tables -t mangle -A PREROUTING -p tcp --dport 443 -s 2803:f800::/32 -j ACCEPT 
