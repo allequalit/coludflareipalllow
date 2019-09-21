@@ -4,6 +4,7 @@
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [0:0]
 :POSTROUTING ACCEPT [0:0]
+-A PREROUTING -p tcp -m tcp --dport 80 -j DROP
 -A PREROUTING -s 2400:cb00::/32 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 2606:4700::/32 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 2803:f800::/32 -p tcp -m tcp --dport 80 -j ACCEPT
@@ -11,6 +12,7 @@
 -A PREROUTING -s 2405:8100::/32 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 2a06:98c0::/29 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 2c0f:f248::/32 -p tcp -m tcp --dport 80 -j ACCEPT
+-A PREROUTING -p tcp -m tcp --dport 443 -j DROP
 -A PREROUTING -s 2400:cb00::/32 -p tcp -m tcp --dport 443 -j ACCEPT
 -A PREROUTING -s 2606:4700::/32 -p tcp -m tcp --dport 443 -j ACCEPT
 -A PREROUTING -s 2803:f800::/32 -p tcp -m tcp --dport 443 -j ACCEPT
