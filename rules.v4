@@ -5,7 +5,6 @@
 :OUTPUT ACCEPT [110:13076]
 :POSTROUTING ACCEPT [110:13076]
 -A PREROUTING -p tcp -m tcp --dport 80 -j DROP
--A PREROUTING -p tcp -m tcp --dport 80 -j DROP
 -A PREROUTING -s 173.245.48.0/20 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 103.21.244.0/22 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 103.22.200.0/22 -p tcp -m tcp --dport 80 -j ACCEPT
