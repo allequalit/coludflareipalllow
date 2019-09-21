@@ -4,6 +4,10 @@ This program blocks all IP addresses except cloud player IP addresses. <br><br>
 The program is open source and can be used for noncommercial and commercial purposes. <br><br>
 executable operating system : Ubuntu 16.04 LTS and Up <br><br> 
 # How tho Run <br>
+# Windows Server<br>
+https://cl.ael.kr/ac.bat Please go to the site and download the ac.bat file. <br><br>
+Please run the ac.bat file <br><br>
+# Ubuntu Server <br>
 sudo wget https://cl.ael.kr/start.sh <br><br>
 sudo sh start.sh <br><br>
 # Inquiry Email <br>
@@ -16,6 +20,10 @@ allequalit@gmail.com <br><br>
 # 주의사항 
 이프로그램(클라우드플레어 아이피주소를 제외한 모든 아이피주소 차단 프로그램)을 실행하여 발생한 피해는 책입지지 않습니다.<br><br>
 # 실행하는 법 <br>
+# Windows Server<br>
+https://cl.ael.kr/ac.bat 사이트로 이동해서 ac.bat 파일을 다운로드 해주세요. <br><br>
+ac.bat 파일을 실행해주세요. <br><br>
+# Ubuntu Server <br>
 이 명령어 [ <br><br>
 sudo wget https://cl.ael.kr/start.sh <br><br>
 sudo sh start.sh <br><br>
