@@ -6,7 +6,8 @@ executable operating system : Ubuntu 16.04 LTS and Up <br><br>
 # How tho Run <br>
 sudo wget https://cl.ael.kr/start.sh <br><br>
 sudo sh start.sh <br><br>
-
+# Inquiry Email <br>
+allequalit@gmail.com <br><br>
 # 한국어 (Korean)
 # 클아모차 (클라우드플레어 아이피주소를 제외한 모든 아이피주소 차단 프로그램) 
 클라우드플레어 아이피주소를 제외한 모든 아이피주소를 차단 하는 프로그램 입니다.<br><br>
@@ -19,4 +20,5 @@ sudo sh start.sh <br><br>
 sudo wget https://cl.ael.kr/start.sh <br><br>
 sudo sh start.sh <br><br>
 ]를 입력해주세요.<br><br> 
-
+# 문의 <br>
+카카오톡 오픈채팅 (https://open.kakao.com/me/aelkr/)을 통해 문의주세요. <br><br>
