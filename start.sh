@@ -12,7 +12,7 @@ cp /usr/share/netfilter-persistent/plugins.d/15-ip4tables /etc/init.d/iptables
 /etc/init.d/iptables flush
 update-rc.d -f iptables defaults
 
-# 80, 443 포트 클라우드플레어 아이피주소를 제외한 모든 아이피 주소 차단
+# 80, 443 포트 클라우드플레어 아이피주소 (https://www.cloudflare.com/ips/)를 제외한 모든 아이피 주소 차단
 
 iptables -t mangle -A PREROUTING -p tcp --dport 80 -j DROP
 iptables -t mangle -A PREROUTING -p tcp --dport 80 -s 173.245.48.0/20 -j ACCEPT
