@@ -1,10 +1,9 @@
 *mangle
-:PREROUTING ACCEPT [174:11580]
-:INPUT ACCEPT [174:11580]
+:PREROUTING ACCEPT [741:57647]
+:INPUT ACCEPT [794:67604]
 :FORWARD ACCEPT [0:0]
-:OUTPUT ACCEPT [110:13076]
-:POSTROUTING ACCEPT [110:13076]
--A PREROUTING -p tcp -m tcp --dport 80 -j DROP
+:OUTPUT ACCEPT [475:62350]
+:POSTROUTING ACCEPT [475:62350]
 -A PREROUTING -s 173.245.48.0/20 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 103.21.244.0/22 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 103.22.200.0/22 -p tcp -m tcp --dport 80 -j ACCEPT
@@ -19,7 +18,7 @@
 -A PREROUTING -s 104.16.0.0/12 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 172.64.0.0/13 -p tcp -m tcp --dport 80 -j ACCEPT
 -A PREROUTING -s 131.0.72.0/22 -p tcp -m tcp --dport 80 -j ACCEPT
--A PREROUTING -p tcp -m tcp --dport 443 -j DROP
+-A PREROUTING -p tcp -m tcp --dport 80 -j DROP
 -A PREROUTING -s 173.245.48.0/20 -p tcp -m tcp --dport 443 -j ACCEPT
 -A PREROUTING -s 103.21.244.0/22 -p tcp -m tcp --dport 443 -j ACCEPT
 -A PREROUTING -s 103.22.200.0/22 -p tcp -m tcp --dport 443 -j ACCEPT
@@ -34,4 +33,5 @@
 -A PREROUTING -s 104.16.0.0/12 -p tcp -m tcp --dport 443 -j ACCEPT
 -A PREROUTING -s 172.64.0.0/13 -p tcp -m tcp --dport 443 -j ACCEPT
 -A PREROUTING -s 131.0.72.0/22 -p tcp -m tcp --dport 443 -j ACCEPT
+-A PREROUTING -p tcp -m tcp --dport 443 -j DROP
 COMMIT
