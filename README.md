@@ -1,6 +1,6 @@
 # 영어 (English)
-# All IP Address Blocking Programs except CloudFlayer IP Addresses
-This program blocks all IP addresses except CloudFlayer IP addresses. <br><br>
+# All IP Address Blocking Programs except Cloudflayer IP Addresses
+This program blocks all IP addresses except Cloudflayer IP addresses. <br><br>
 The program is open source and can be used for noncommercial and commercial purposes. <br><br>
 executable operating system : Ubuntu 16.04 LTS and Up <br><br> 
 # How tho Run <br>
