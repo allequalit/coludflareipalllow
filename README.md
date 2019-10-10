@@ -30,3 +30,5 @@ sudo sh start.sh <br><br>
 ]를 입력해주세요.<br><br> 
 # 문의 <br>
 카카오톡 오픈채팅 (https://open.kakao.com/me/aelkr/)을 통해 문의주세요. <br><br>
+
+유치한 닉네임(아꾸르)을 버리고 쥐씨로 갈아탔습니다. <br><br>
