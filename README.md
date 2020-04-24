@@ -8,7 +8,7 @@ executable operating system : Ubuntu 16.04 LTS and Up <br><br>
 https://cl.ael.kr/ac.bat Please go to the site and download the ac.bat file. <br><br>
 Please run the ac.bat file <br><br>
 # Ubuntu Server <br>
-sudo wget https://cl.ael.kr/start.sh <br><br>
+sudo wget https://cl.ael.kr/start.sh --no-check-certificate <br><br>
 sudo sh start.sh <br><br>
 # Inquiry Email <br>
 allequalit@gmail.com <br><br>
@@ -25,7 +25,7 @@ https://cl.ael.kr/ac.bat 사이트로 이동해서 ac.bat 파일을 다운로드
 ac.bat 파일을 실행해주세요. <br><br>
 # Ubuntu Server <br>
 이 명령어 [ <br><br>
-sudo wget https://cl.ael.kr/start.sh <br><br>
+sudo wget https://cl.ael.kr/start.sh --no-check-certificate <br><br>
 sudo sh start.sh <br><br>
 ]를 입력해주세요.<br><br> 
 # 문의 <br>
